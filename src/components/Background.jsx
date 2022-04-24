@@ -132,7 +132,7 @@ class Background extends React.Component{
             {/* <Navbar/> */}
 
             
-            <img src={this.state.img_url}></img>
+            <img className="background-img" src={this.state.img_url}></img>
 
             <div className="button-position">
             <p className="Author-text">The Author for this image is: {this.state.author}</p>
