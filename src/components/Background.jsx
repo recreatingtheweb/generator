@@ -24,7 +24,7 @@ class Background extends React.Component{
         const data = await response.json();
         
         data.forEach(element => {
-            if(element.id != 1027 && element.id != 1028 && element.id != 1031 && element.id != 1047 &&  element.id != 1048 &&  element.id != 1053 ){
+            if(element.id != 1027 && element.id != 1028 && element.id != 1031 && element.id != 1047 &&  element.id != 1048 &&  element.id != 1053 &&  element.id != 1055 ){
                 // console.log("This is a correct element")
                 correctlist.push(element)
             }
@@ -42,7 +42,7 @@ class Background extends React.Component{
 
 
 
-        if(counter <= 24)
+        if(counter <= 23)
         {
             // counter++;
            
