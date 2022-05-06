@@ -1,11 +1,18 @@
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
 .Author-text{
-    font-size: 50px;
+    /* font-size: 50px; */
+    font-size: 2rem;
     margin-bottom: 50px;
     color: white;
 }
 .background-img{
-     width: 100%;
-    height: auto; 
+     /* width: 100%;
+    min-height: 100%;  */
+    
    
     
 }
@@ -20,6 +27,7 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
+    /* font-size: 5rem; */
 }
 h1{
     color: white;
