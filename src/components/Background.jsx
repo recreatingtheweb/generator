@@ -5,14 +5,14 @@ import Navbar from "./Navbar";
 
 const url = 'https://picsum.photos/v2/list?page=2';
 
-var counter = 0;
+var counter = 1;
 
 var correctlist = [];
 
 class Background extends React.Component{
     constructor(props){
         super(props);
-        this.state={ id: "1021", author: "Frances Gunn", img_url: "https://picsum.photos/id/1021/1600/1200"}
+        this.state={ id: "1021", author: "Frances Gunn", img_url: "https://picsum.photos/id/1026/1600/1200"}
         this.getJSON = this.getJSON.bind(this);
     }
 
