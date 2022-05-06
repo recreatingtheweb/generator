@@ -42,7 +42,7 @@ class Background extends React.Component{
 
 
 
-        if(counter <= 23)
+        if(counter < 23)
         {
             // counter++;
            
@@ -76,7 +76,7 @@ class Background extends React.Component{
         else{
             counter = 0;
             // console.log(data[counter])
-            counter++
+            // counter++
             // console.log(data[counter].id)
             // console.log(data[counter].author)
 
@@ -93,6 +93,7 @@ class Background extends React.Component{
             });
             // console.log(this.state.img_url)
             counter = 0;
+            counter++
 
         }
         
