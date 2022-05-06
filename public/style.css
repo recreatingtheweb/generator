@@ -48,8 +48,8 @@ h1{
       font-size: 1.3rem;
     }
   }
-  /* @media (orientation: landscape) {
-    .button-position {
-      margin-top: 100px;
+  @media (orientation: landscape) {
+    .Author-text{
+      font-size: 1.3rem;
     }
-  } */
+  }
