@@ -53,6 +53,10 @@ h1{
     .Author-text{
       font-size: 1.3rem;
     }
+    .button-position{
+        top: 70%;
+
+    }
   }
   @media screen and (min-height: 1350px) {
     .button-position {
