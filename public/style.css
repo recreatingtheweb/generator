@@ -54,3 +54,8 @@ h1{
       font-size: 1.3rem;
     }
   }
+  @media screen and (min-height: 1350px) {
+    .button-position {
+        top: 30%;
+    }
+  }

@@ -12,7 +12,7 @@ var correctlist = [];
 class Background extends React.Component{
     constructor(props){
         super(props);
-        this.state={ id: "1021", author: "Frances Gunn", img_url: "https://picsum.photos/id/1026/1600/1200"}
+        this.state={ id: "1021", author: "Frances Gunn", img_url: "https://picsum.photos/id/1026/1600/1400"}
         this.getJSON = this.getJSON.bind(this);
     }
 
@@ -62,7 +62,7 @@ class Background extends React.Component{
 
             // console.log(newAuthor)
             // console.log(data[counter]);
-            var newurl = "https://picsum.photos/id/"+imgID+"/1600/1200"
+            var newurl = "https://picsum.photos/id/"+imgID+"/1600/1400"
             this.setState({
                 author: correctlist[counter].author,
                 img_url: newurl
@@ -85,7 +85,7 @@ class Background extends React.Component{
 
 
             // var newurl = "https://picsum.photos/id/"+imgID+"/2048/1206"
-            var newurl = "https://picsum.photos/id/"+imgID+"/1600/1200"
+            var newurl = "https://picsum.photos/id/"+imgID+"/1600/1400"
 
             this.setState({
                 author: correctlist[counter].author,
