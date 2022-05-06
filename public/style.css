@@ -8,6 +8,7 @@ html,body {
 .Author-text{
     /* font-size: 50px; */
     font-size: 2rem;
+    font-weight: bolder;
     margin-bottom: 30px;
     color: white;
 }
@@ -26,7 +27,7 @@ html,body {
     /* background : rgba(0,0,0,0.5);    */
     position: absolute;
     left: 50%;
-    top: 70%;
+    top: 60%;
     transform: translate(-50%, -50%);
     /* font-size: 5rem; */
 }
