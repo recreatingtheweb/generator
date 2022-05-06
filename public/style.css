@@ -1,3 +1,5 @@
+
+
 html,body {
     margin:0;
     padding:0;
@@ -6,7 +8,7 @@ html,body {
 .Author-text{
     /* font-size: 50px; */
     font-size: 2rem;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: white;
 }
 .background-img{
@@ -25,7 +27,7 @@ html,body {
     /* background : rgba(0,0,0,0.5);    */
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 70%;
     transform: translate(-50%, -50%);
     /* font-size: 5rem; */
 }
@@ -42,3 +44,8 @@ h1{
      
 
 }
+@media screen and (max-width: 385px) {
+    .Author-text {
+      font-size: 1.3rem;
+    }
+  }

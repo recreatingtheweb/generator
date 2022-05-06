@@ -91,7 +91,9 @@ class Background extends React.Component{
             console.log(data[counter].id)
             console.log(data[counter].author)
             var imgID = data[counter].id
-            var newurl = "https://picsum.photos/id/"+imgID+"/2048/1206"
+            // var newurl = "https://picsum.photos/id/"+imgID+"/2048/1206"
+            var newurl = "https://picsum.photos/id/"+imgID+"/200/300"
+
             this.setState({
                 author: data[counter].author,
                 img_url: newurl
@@ -132,12 +134,12 @@ class Background extends React.Component{
             {/* <Navbar/> */}
 
             
-            <img className="background-img" src={this.state.img_url}></img>
+            <img class="img-fluid" className="background-img" src={this.state.img_url}></img>
 
-            <div className="button-position">
+            <div  className="button-position ">
             <p className="Author-text">The Author for this image is: {this.state.author}</p>
 
-            <h1 > Click the button to generate a random background.</h1>
+            <p className="Author-text"> Click the button to generate a random background.</p>
 
             <div class="d-grid gap-2 col-6 mx-auto">
                 <button onClick={this.getJSON.bind(this)}    class="btn btn-secondary btn-outline-light" type="button">Try Me!</button>
